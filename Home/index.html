@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -31,59 +31,335 @@
       }
     </style>
 
-    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/dist/css/all.min.css">
   </head>
   <body>
-    
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <section class="hero">
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent pt-3 pb-0">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/Logo.svg" width="100%" alt="">
+            </a>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown01">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+            <div class="col-md-2"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse m-0 p-0 w-100" id="navbarsExampleDefault">
+              <ul class="navbar-nav me-0 mb-0 mb-md-0 w-100">
+                <li class="nav-item me-3">
+                  <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Landings</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Apps</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Docs</a>
+                </li>
+                <div class="col-md-2"></div>
+                <li class="nav-item me-4">
+                  <a href="" class="nav-link">Sign in</a>
+                </li>
+                <button class="btn btn-light btn-1"><ion-icon name="bag-handle-outline" class="me-2"></ion-icon> Buy Now</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <hr class="bg-white">
 
-<main class="container">
+        <div class="row">
+          <div class="col-md-6 banner-text">
+            <span class="text-light fs-6">- Build like a Pro</span>
+            <h1 class="text-light">A better way</h1>
+            <h1 class="text-primary">to build websites.</h1>
+            <p class="text-light sm-visible">
+              Build a beautiful, modern website with flexible components and modular pages built from scratch.
+            </p>
 
-  <div class="starter-template text-center py-5 px-3">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-  </div>
+            <button class="btn btn-primary mt-4 me-2 btn-5 mb-5">Purchase Quick</button>
+            <button class="btn btn-light btn-2 mt-4 mb-5">Learn More <i class="fas fa-arrow-right ms-3"></i></button>
+            <br>
+            <span class="text-muted skill-link">Compatible with:</span>
+            <div class="row mt-4 logo-block">
+              <div class="col-md-1">
+                <img src="assets/img/bootstrap.svg" class="bg-white p-3 rounded-circle" width="55" alt="">
+              </div>
 
-</main><!-- /.container -->
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/html.svg" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
 
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/css.png" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
 
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/sass.svg" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
+
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/jquery.svg" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
+            </div>
+
+            <div class="mt-4 logo-flex d-none">
+              <div class="col-md-1">
+                <img src="assets/img/bootstrap.svg" class="bg-white p-3 rounded-circle" width="55" alt="">
+              </div>
+
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/html.svg" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
+
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/css.png" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
+
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/sass.svg" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
+
+              <div class="col-md-1 ms-4">
+                <img src="assets/img/jquery.svg" class="bg-white p-3 rounded-circle" width="52" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-2 col-img">
+            <img src="assets/img/screen-desktop-1.jpg" width="650" class="rounded-3 shadow" alt="">
+            <img src="assets/img/screen-phone-3.jpg" width="300" class="img-small rounded-3 shadow" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
+      <h2 class="text-center">Carefuly crafted components ready <br> to use in your project</h2>
+      <h5 class="text-muted text-center mt-3">Use Atomic Design to build components, sections and, then, pages.</h5>
+      <div class="row mt-5 sm-center">
+        <div class="col-md-3 mt-3">
+          <div class="row">
+            <div class="col-md-4 fs-2 fw-bold">
+              50+
+            </div>
+
+            <div class="col-md-8 sm-text">
+              beautifully coded page examples
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-3">
+          <div class="row">
+            <div class="col-md-4 fs-2 fw-bold">
+              280+
+            </div>
+
+            <div class="col-md-8 sm-text">
+              components and features
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-3">
+          <div class="row">
+            <div class="col-md-2 fs-2 fw-bold">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+
+            <div class="col-md-8 sm-text">
+              optimized to work for most devices
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mt-3">
+          <div class="row">
+            <div class="col-md-2 fs-2 fw-bold">
+              <i class="fas fa-palette"></i>
+            </div>
+
+            <div class="col-md-8 sm-text">
+              optimized to work for most devices
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row margin-top mb-5">
+        <div class="col-md-4">
+          <div class="col-md-12 radius border shadow-sm p-2 ps-3 pe-3">
+            <div class="row">
+              <div class="col-md-2 bg-success p-3 ms-2 rounded-circle text-center text-light">
+                <i class="fas fa-check fs-5"></i>
+              </div>
+
+              <div class="col-md-9 ms-2">
+                <div class="fs-6 fw-bold">300 + components</div>
+                <div class="tn-text text-muted">Built to be customized.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 mt-3 radius shadow-sm">
+            <img src="assets/img/img-1-1000x1000.jpg" class="radius-2" width="100%" alt="">
+            <div class="row mt-2 p-2 ms-2">
+              <div class="col-md-2 bg-warning round-p rounded-circle text-center text-light fw-bold">
+                NJ
+              </div>
+
+              <div class="col-md-9 mt-3">
+                Nathaniel Joseph
+
+                <button class="float-end border-0 bg-transparent" onclick="like()"><i class="far text-muted float-end fa-heart" id="notLiked"></i> <i class="fas float-end fa-heart text-danger red-heart" id="liked"></i></button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-12 mt-3 ps-1">
+            <div class="row">
+              <div class="col-md-2 text-primary shadow-sm rounded-circle p-3 text-center">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+              <div class="col-md-2 ms-2 text-success shadow-sm rounded-circle p-3 text-center">
+                <i class="fas fa-check"></i>
+              </div>
+
+              <div class="col-md-2 ms-2 text-warning shadow-sm rounded-circle p-3 text-center">
+                <i class="fas fa-coffee"></i>
+              </div>
+
+              <div class="col-md-2 ms-2 text-danger shadow-sm rounded-circle p-3 text-center">
+                <i class="far fa-heart"></i>
+              </div>
+
+              <div class="col-md-2 ms-2 text-info shadow-sm rounded-circle p-3 text-center">
+                <i class="far fa-thumbs-up"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="col-md-12 border shadow-sm p-4 pb-5 radius text-center">
+            <img src="assets/img/airbnb.svg" width="50%" alt="">
+            <div class="mt-4">
+              <span class="text-warning">
+                <i class="far fa-star"></i>
+              </span>
+
+              <span class="text-warning">
+                <i class="far fa-star"></i>
+              </span>
+
+              <span class="text-warning">
+                <i class="far fa-star"></i>
+              </span>
+
+              <span class="text-warning">
+                <i class="far fa-star"></i>
+              </span>
+
+              <span class="text-muted">
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+
+            <div class="mt-4 fw-bold">
+              4.95 out of 5 stars
+            </div>
+
+            <div class="mt-4 text-muted">
+              from 23 reviews
+            </div>
+          </div>
+
+          <div class="col-md-12 mt-4 shadow-sm border p-4 pb-4 radius text-center">
+            <img src="assets/img/company-1.png" width="20%" class="rounded-circle shadow hover mt-3" alt="">
+            <div class="mt-4">
+              <a href="" class="text-dark fs-6 kit-link text-decoration-none">Website UI Kit</a>
+            </div>
+
+            <div class="mt-4">
+              <img src="assets/img/person-1.jpg" width="15%" class="rounded-circle" alt="">
+              <img src="assets/img/person-2.jpg" width="15%" class="rounded-circle" style="margin-left: -10px;" alt="">
+              <img src="assets/img/person-3.jpg" width="15%" class="rounded-circle" style="margin-left: -10px;" alt="">
+            </div>
+
+            <hr class="bg-secondary">
+
+            <div class="mt-4 text-muted">
+              <button class="border-0 bg-transparent text-muted"><i class="fas fa-paperclip"></i></button>
+              <button class="border-0 bg-transparent text-muted"><i class="far fa-eye"></i></button>
+              <button class="border-0 bg-transparent text-muted"><i class="far fa-heart"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="col-md-12 shadow-sm border p-4 radius text-center">
+            <div class="float-end">
+              <a href="" class="text-muted text-decoration-none me-3"><i class="fas fa-sync-alt"></i></a>
+              <a href="" class="text-muted text-decoration-none sm-text" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+              <ul class="dropdown-menu shadow" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item sm-text" href="#">Refresh</a></li>
+                <li><a class="dropdown-item sm-text" href="#">Manage widgets</a></li>
+                <li><a class="dropdown-item sm-text" href="#">Settings</a></li>
+              </ul>
+            </div>
+            <div class="mt-5 row">
+              <div class="col-md-8 text-start">
+                <i class="fab fa-github lg-text"></i>
+                <div class="mt-2 fw-bold">
+                  Github
+                </div>
+                <div class="text-muted mt-2 sm-text">
+                  Your subtitle comes here
+                </div>
+              </div>
+
+              <div class="col-md-4 text-success sm-text">
+                <i class="fas fa-check-circle me-2"></i> <span class="fw-bold">Installed</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 mt-4 shadow-sm p-4 radius border">
+            <img src="assets/img/shopping-bag.png" width="15%" alt="">
+            <h5 class="text-dark mt-4 fw-bold">Checkout</h5>
+            <p class="mt-4 text-muted sm-text">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+            <div class="progress bg-white mt-4" style="width: 100% !important;">
+              <div class="progress-bar bg-light" style="height: 5px; width: 100%;" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+              <span>
+                <i class="fas fa-percent ms-4"></i>
+              </span>
+            </div>
+
+            <button class="btn btn-primary btn-2 mt-3">Tasks</button>
+            <span class="text-warning float-end mt-4"><i class="fas fa-dollar-sign"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-
-      
+    <script src="assets/dist/js/all.min.js"></script>
+    <script src="assets/dist/js/main.js"></script>
   </body>
 </html>
